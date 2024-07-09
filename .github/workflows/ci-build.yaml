@@ -28,7 +28,9 @@ jobs:
 
     steps:
       - name: Checkout
+        add-ci-build
         uses: actions/checkout@v4
+        - main
 
       - name: Install dependencies
         run: |
