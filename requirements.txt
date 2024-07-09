@@ -4,7 +4,7 @@ SQLAlchemy==2.0.31
 
 # Build dependencies
 Flask==2.1.2
-Flask-SQLAlchemy==2.5.1
+Flask-SQLAlchemy==3.02
 psycopg2-binary==2.9.3
 python-dotenv==0.20.0
 
